@@ -10,7 +10,7 @@ class car:
         self.degviel_veids = deg_veids
         
     def info_car(self):
-        print(f"Zimols: {self.auto_zimols} \n Modelis: {self.model} \n Registracijas datums: {self.regestr_datums}\n Pilna masa: {self.pilna_masa}\n Degvielas veids{self.degviel_veids}")
+        print(f"Zimols: {self.auto_zimols} \n Modelis: {self.model} \n Registracijas datums: {self.regestr_datums}\n Pilna masa: {self.pilna_masa}\n Degvielas veids: {self.degviel_veids}")
 
 a=car("Audi","A4","22.10.2019","1800","Bg")
 a.info_car()
