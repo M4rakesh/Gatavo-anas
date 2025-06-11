@@ -26,7 +26,7 @@ else:
 '''2.uzd'''
 s=[]
 
-while True:
+'''while True:
     vards = input("Ievadiet vardu: ")
     if vards[0].isupper() and vards.isalpha():
         s.appednd(vards)
@@ -34,3 +34,20 @@ while True:
     else:
         print("Ievadiet atbilstošu cilvēka vārdu! ")
         pass
+'''
+alfabets=['AĀBCČDĒEFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ']
+
+s=[]
+While True:
+    vards= input("Ievadit vardu: ")
+    if vards == '':
+        break
+    if vards[0].isupper() and vards.isalpha():
+        s.append(vards)
+    else:
+        print("Ievadiet atbilstošu cilvēka vārdu!")
+
+s.sort(alfabets)
+
+print("Vārdi alfabēta secība:")
+for i in s:
