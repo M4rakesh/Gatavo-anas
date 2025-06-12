@@ -15,7 +15,7 @@ def derigs(str):
 # ļauj ievadīt vienu vārdu
 def ievadit():
     while True:
-        vards = input("Ievadiet vārdu😊
+        vards = input("Ievadiet vārdu")
         if(derigs(vards)):
             return vards
         print("Nepareizi ievadits vards!")
